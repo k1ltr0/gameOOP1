@@ -7,7 +7,9 @@ window.addEventListener('load', function () {
     new ExampleMap1(),
     new ExampleMap2()
   ], [
-    KnightHero
+    //KnightHero
+    fire,
+    Tree
     //Hero
   ]);
 
