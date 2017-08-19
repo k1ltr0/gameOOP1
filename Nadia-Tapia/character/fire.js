@@ -1,8 +1,8 @@
-function fire(map, x, y) {
+function Fire(map, x, y) {
   Hero.call(this, map, x, y);
 }
 
-fire.prototype = Object.create(Hero.prototype);
-fire.prototype.constructor = fire;
+Fire.prototype = Object.create(Hero.prototype);
+Fire.prototype.constructor = Fire;
 // image property MUST be defined in prototype
-fire.prototype.image = 'Nadia-Tapia/character/fire.png'
+Fire.prototype.image = 'Nadia-Tapia/character/fire.png'
