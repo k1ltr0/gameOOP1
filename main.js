@@ -7,8 +7,8 @@ window.addEventListener('load', function () {
     new ExampleMap1(),
     new ExampleMap2()
   ], [
+    miPersonaje,
     KnightHero
-    //Hero
   ]);
 
   game.appendTo(document.body);
