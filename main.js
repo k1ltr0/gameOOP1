@@ -9,6 +9,7 @@ window.addEventListener('load', function () {
     new ExampleMap3(),
     new ExampleMap4()
   ], [
+    PrincessHero,
   	DragonHero,
     KnightHero
   ]);
